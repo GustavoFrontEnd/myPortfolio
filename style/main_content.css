@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--poppins);
+}
+
+/* header */
+
+.header_menu{
+    padding: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    position: fixed;
+    
+}
+
+.header_menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.header_menu ul li{
+    margin-bottom: 25px;
+    border-radius: 50px;
+}
+
+.header_menu ul li a{
+    color: var(--preto);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 90px;
+    transition: background-color 1.5s ease;
+}
+
+.header_menu ul li a:hover{
+    background-color: #c1c0c0;
+}
+
+
+/* Secao sobre mim */
+
+.aboutMe{
+    padding: 12px;
+    margin: 8px;
+}
+
+.aboutMe .Image_container__left img{
+    max-width: 289px;
+    height: auto;
+    float: left;
+    padding: 12px;
+    margin: 12px;
+    position: relative;
+    left: 120px;
+    border-radius: 50px;
+}
+
+.aboutMe .descriptionForMe__right h1{
+    font-size: 60px;
+    font-family: var(--dosis);
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: -0.75rem;
+    font-weight: 200;
+    height: 6.0rem;
+    color: var(--vermelho);
+}
+
+.aboutMe .descriptionForMe__right h2{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    font-family: var(--dosis);
+    color: var(--cinza);
+}
+
+.aboutMe .descriptionForMe__right p{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px; 
+    font-size: 12px;
+    width: 635px;
+    min-width: 500px;
+    margin-left: 350px;
+    position: relative;
+    left: 10rem;
+    bottom: -2rem;
+    line-height: 1.5rem;
+}
+
+/* seção my projects */
+
+.myProjects{
+    background-color: var(--vermelho);
+}
+
+.myProjects h2{
+    color: var(--cinza);
+    font-size: 60px;
+    font-family: var(--dosis);
+    text-align: center;
+    font-weight: 200;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card_container .card__project01{
+    max-width: 289px;
+    height: auto;
+    padding: 12px;
+    margin: 12px;
+    position: relative;
+    left: 120px;
+}
+
+.card_container .card__project02{
+    max-width: 289px;
+    height: auto;
+    padding: 12px;
+    margin: 12px;
+    position: relative;
+    left: 120px;
+}
+
+.card_container .card__project03{
+    max-width: 289px;
+    height: auto;
+    padding: 12px;
+    margin: 12px;
+    position: relative;
+    left: 120px;
+}
+
+.card_container img{
+    width: 300px;
+    height: 320px;
+    border-radius: 50px;
+    transition: width 0.5s ease;
+    background-color: #fff;
+}
+
+.card_container img:hover{
+    width: 330px;
+}
+
+.card_container h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+.card_container p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+

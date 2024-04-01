@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="./style/main_content.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/vars.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <!-- fonts -->
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+    href="https://fonts.gstatic.com" 
+    crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+    href="https://fonts.gstatic.com" 
+    crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" 
+    rel="stylesheet">
+
+    <!-- titulo -->
+    <title>Meu portfolio</title>
+
+</head>
+<body>
+    <!-- header -->
+    <nav class="header_menu">
+        <ul>
+            <li><a href="#aboutMe"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#myProjects"><i class="fa-solid fa-book"></i></a></li>
+            <li><a href="#myContact"><i class="fa-regular fa-address-book"></i></a></li>
+            <li><a href="curriculoParaDownload/CURRICULUM - GUSTAVO FERREIRA (2).pdf" download><i class="fa-solid fa-download"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- menu sobre mim -->
+    <section id="aboutMe">
+    
+        <div class="aboutMe">
+        <div class="Image_container__left">
+            <figure>
+                <img src="./assets/foto do portfolio2.jpg" alt="Foto de perfil do qual me encontro no espelho de uma academia">
+        </figure>
+        </div>
+        
+        <div class="descriptionForMe__right">
+            <h1>GUSTAVO FERREIRA DA SILVA</h1>
+
+            <h2>Futuro Desenvolvedor Front-End</h2>
+
+            
+                <p>Prazer, meu nome é GUSTAVO FERREIRA DA SILVA, nasci em 08/04/2003, na cidade de Cotia-SP e amo Desenvolvimento Web.</p> 
+            
+                <p>Estudo programação e tecnologia desde o ano de 2021.</p>
+                
+                <p>Atualmente curso Analise e desenvolvimento de Software na universidade UNINTER, onde estou no meu 2º semestre. Faço também outros cursos, como por exemplo, Desenvolvimento Web pela plataforma da Udemy e de inglês pela própria universidade UNINTER.</p>
+                
+                <p>Meu primeiro contato com a programação foi em um curso de desenvolvimento de aplicação Android no SENAI, utilizamos a linguagem Java, e foi aí que comecei a amar essa profissão.</p>
+                
+                <p>Na luta e no foco para entrar na área e conseguir o meu primeiro estágio. Procurando e estudando o dobro para tornar esse sonho em realidade.</p>
+            
+        </div>    
+    </div> 
+    
+</section> <!--fechamento do aboutMe -->
+    
+
+    <!--  Meus Projetos -->
+
+    <section id="myProjects">
+        <div class="myProjects">
+            <h2>PROJETOS</h2>
+        
+        <div class="card_container">
+            
+            <div class="card__project01">
+                <a href="https://gustavofrontend.github.io/controlFinances/" target="_blank">
+                    <img src="./assets/ControlFinances.png" alt="Controle de finanças"></a>
+                <h3>Controle de finanças</h3>
+                <p>Projeto feito com HTML, CSS e JavaScript puro. Simula um controle de finanças.</p>
+            </div>
+            
+            <div class="card__project02">
+                <a href="https://gustavofrontend.github.io/cardContact.github.io/" target="_blank">
+                    <img src="./assets/CardContact.png" alt="Cartão de Contato"></a>
+                <h3>Cartão de Contato</h3>
+                <p>Projeto feito com HTML, CSS puros. Um cartão de contato simples feito por mim.</p>
+            </div>
+
+            <div class="card__project03">
+                <a href="#">
+                    <img src="./assets/Em breve....png" alt="Em breve..."></a>
+                <h3>Em Breve...</h3>
+                <p>Projeto feito com HTML, CSS e JavaScript puro. Em breve pronto e publicado (Se Deus quiser).</p>
+            </div>
+        </div>
+        </div>
+    </section> <!-- fechamento da seção de meus projetos -->
+
+    
+    <!-- Contato -->
+
+    <section id="myContact">
+        <div class="myContact">
+            <h2>FALE COMIGO</h2>
+
+        <div class="contactForm__container">
+            <form action="">
+                <div class="contactForm__inputs">
+                    <label for="Email"></label>
+                    <input type="Email" 
+                        name="Email" 
+                        id="Email" 
+                        placeholder="Email"  
+                        required>
+                    
+                    <label for="Name"></label>
+                    <input type="name" 
+                        name="name" 
+                        id="name" 
+                        placeholder="nome"  
+                        required>
+
+                    <textarea name="message" 
+                    id="message" 
+                    placeholder="Mande sua mensagem" 
+                    required=""></textarea>
+
+                    <input 
+                    type="submit"
+                    id="enviar" 
+                    value="enviar">
+                </div>
+            </form>
+        </div>
+        </div>
+    </section> <!--fechamento da seção de contato -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<!-- https://gustavofrontend.github.io/controlFinances/ -->
+<!-- https://gustavofrontend.github.io/cardContact.github.io/ -->
